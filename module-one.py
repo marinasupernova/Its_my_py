@@ -1,8 +1,3 @@
-# #roads = [
-#     {roadtype:"highway", speed_limit: 500 },
-#     {roadtype: "city", speed_limit: 60 },
-#     {roadtype: "road", speed_limit: 90 }]
-
 
 def check_speed(speed, roadtype):
     
