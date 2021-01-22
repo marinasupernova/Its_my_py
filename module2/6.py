@@ -1,5 +1,3 @@
-words = ["apple", "pear", "orange", "banana", "plum", "grapes", "rambutan"]
-
 
 def max_length(words):
 
@@ -18,5 +16,5 @@ def max_length(words):
 
     return max_word_length, max_word
 
-
+words = ["apple", "pear", "orange", "banana", "plum", "grapes", "rambutan"]
 print(max_length(words))

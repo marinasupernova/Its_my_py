@@ -1,5 +1,3 @@
-list1 = [1, 2, 3, 4, 5]
-list2 = [4, 5, 6, 7,8]
 
 def find_common(list1, list2):
 
@@ -11,5 +9,6 @@ def find_common(list1, list2):
     else:
         return False
 
-
+list1 = [1, 2, 3, 4, 5]
+list2 = [4, 5, 6, 7,8]
 print(find_common(list1, list2))

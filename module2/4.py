@@ -1,5 +1,3 @@
-string = "google.com"
-
 
 def count_num_char(string):
     frequency = {}
@@ -11,4 +9,5 @@ def count_num_char(string):
             frequency[letter] = 1
     return frequency
 
+string = "google.com"
 print(count_num_char(string))

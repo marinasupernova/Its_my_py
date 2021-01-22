@@ -1,4 +1,4 @@
-word = "abracadabra"
+
 
 def rmv_odd_char(word):
     
@@ -12,4 +12,6 @@ def rmv_odd_char(word):
     return converted_word
 
 
-print(rmv_odd_char(word))
+print(rmv_odd_char("abracadabra"))
+print(rmv_odd_char("transmission"))
+print(rmv_odd_char("abbreviation"))

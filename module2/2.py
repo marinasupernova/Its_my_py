@@ -1,4 +1,3 @@
-words = ["apple", "pear", "orange", "peach", "banana", "plum", "grapes", "kiwi"]
 
 def find_word_nolonger(words):
     filtered_words = []
@@ -11,4 +10,5 @@ def find_word_nolonger(words):
         i+=1
     return filtered_words
 
+words = ["apple", "pear", "orange", "peach", "banana", "plum", "grapes", "kiwi"]
 print(find_word_nolonger(words))
