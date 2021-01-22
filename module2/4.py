@@ -1,14 +1,14 @@
-Task4
 string = "google.com"
 
-frequency = {}
 
-i = 0
+def count_num_char(string):
+    frequency = {}
+    i = 0
+    for letter in string:
+        if letter in frequency:
+            frequency[letter] += 1
+        else:
+            frequency[letter] = 1
+    return frequency
 
-for letter in string:
-    if letter in frequency:
-        frequency[letter] += 1
-    else:
-        frequency[letter] = 1
-
-print(frequency)
+print(count_num_char(string))
