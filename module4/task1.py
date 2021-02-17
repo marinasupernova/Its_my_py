@@ -1,4 +1,3 @@
-Stepan Suvorov, [15 Feb 2021 at 20:37:55]:
 class MyIteratorFactory:
     
     i = -1

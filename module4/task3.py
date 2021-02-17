@@ -31,11 +31,12 @@ class Employee:
         salary = self.BASIC_SALARY*(self.experience + self.JOB_EFFICIENCE_COEF[self.job_attributes])
         return salary
 
-    def calculate_max_experience(self, current_salary):
-        max_experience = self.JOB_EFFICIENCE_COEF < current salary
-        return max_experience
+    def calculate_experience(self):
+
+        if self.JOB_EFFICIENCE_COEF[self.job_attributes] < self.calculate_salary():
+            return self.experience
 
 
-employee1 = Employee("Bob", 43, "pm", 0)
+employee1 = Employee("Bob", 43, "pm", 60000)
 
-print(employee1.calculate_salary())
+print(employee1.calculate_experience())

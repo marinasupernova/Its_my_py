@@ -8,3 +8,17 @@ then creates object of Employee class for this data  then in cycle checks
 if they are applicable for job and print like 
 anna: applicable 
 vasya: not'''
+
+import csv
+
+
+def csv_reader(file):
+    for row in open(file, "r"):
+        yield row
+
+my_generator = csv_reader("EmployeesData.csv")
+
+print(next(my_generator))
+print(next(my_generator))
+print(next(my_generator))
+
